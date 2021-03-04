@@ -37,3 +37,17 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     images = get_images()
     template, mimetype = render_template('index.html', images)
     return func.HttpResponse(template, mimetype=mimetype)
+
+
+"""
+========================================================================================================================
+EXPLANATION OF IMPLEMENTED SOLUTION:
+    0. In order to implement full stack single page application, I used Azure Functions, [HTTP Trigger]
+    1. Created SAS url on Storage Account for "publicfiles" container
+    2. Initialize container client from SAS URL via SDK
+    3. Iterate over blobs, init blob client from container SAS
+    4. Retrieve safe URL for each blob
+    5. Render HTML template using Jinja2, sending our generate image urls
+    6. Return HTTP Response of HTML mime type
+========================================================================================================================
+"""
