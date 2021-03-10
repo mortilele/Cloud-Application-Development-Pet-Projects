@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yXIxNT1gRwrdTUXYHHNcKpkc/xb8eOD11hV9BGgr+OD6dADesrNXyCOg++flQppU4tDJvdfnmcQD8lbN3TWX0w==",
+  "success": true,
+  "projectFilePath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj",
+  "expectedPackageFiles": [
+    "/home/mars/.nuget/packages/system.componentmodel.annotations/4.6.0/system.componentmodel.annotations.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

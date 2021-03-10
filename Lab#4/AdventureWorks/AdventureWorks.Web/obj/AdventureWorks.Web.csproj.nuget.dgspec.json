@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Web/AdventureWorks.Web.csproj": {}
+  },
+  "projects": {
+    "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/AdventureWorks.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/AdventureWorks.Context.csproj",
+        "projectName": "AdventureWorks.Context",
+        "projectPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/AdventureWorks.Context.csproj",
+        "packagesPath": "/home/mars/.nuget/packages/",
+        "outputPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mars/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj": {
+                "projectPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj",
+        "projectName": "AdventureWorks.Models",
+        "projectPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj",
+        "packagesPath": "/home/mars/.nuget/packages/",
+        "outputPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mars/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Web/AdventureWorks.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Web/AdventureWorks.Web.csproj",
+        "projectName": "AdventureWorks.Web",
+        "projectPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Web/AdventureWorks.Web.csproj",
+        "packagesPath": "/home/mars/.nuget/packages/",
+        "outputPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mars/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/AdventureWorks.Context.csproj": {
+                "projectPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/AdventureWorks.Context.csproj"
+              },
+              "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj": {
+                "projectPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

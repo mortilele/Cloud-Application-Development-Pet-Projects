@@ -1,0 +1,14 @@
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/bin/Debug/netstandard2.1/AdventureWorks.Context.deps.json
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/bin/Debug/netstandard2.1/AdventureWorks.Context.dll
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/bin/Debug/netstandard2.1/AdventureWorks.Context.pdb
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/bin/Debug/netstandard2.1/AdventureWorks.Models.dll
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/bin/Debug/netstandard2.1/AdventureWorks.Models.pdb
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/obj/Debug/netstandard2.1/AdventureWorks.Context.csprojAssemblyReference.cache
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/obj/Debug/netstandard2.1/AdventureWorks.Context.AssemblyInfoInputs.cache
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/obj/Debug/netstandard2.1/AdventureWorks.Context.AssemblyInfo.cs
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/obj/Debug/netstandard2.1/AdventureWorks.Context.csproj.CoreCompileInputs.cache
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/obj/Debug/netstandard2.1/AdventureWorks.Context.csproj.CopyComplete
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/obj/Debug/netstandard2.1/AdventureWorks.Context.dll
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/obj/Debug/netstandard2.1/AdventureWorks.Context.pdb
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/bin/Debug/netstandard2.1/Microsoft.Azure.Cosmos.ServiceInterop.dll
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Context/bin/Debug/netstandard2.1/Cosmos.CRTCompat.dll

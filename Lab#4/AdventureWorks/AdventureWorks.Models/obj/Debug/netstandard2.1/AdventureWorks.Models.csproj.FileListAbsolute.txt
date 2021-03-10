@@ -1,0 +1,9 @@
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/bin/Debug/netstandard2.1/AdventureWorks.Models.deps.json
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/bin/Debug/netstandard2.1/AdventureWorks.Models.dll
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/bin/Debug/netstandard2.1/AdventureWorks.Models.pdb
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/obj/Debug/netstandard2.1/AdventureWorks.Models.csprojAssemblyReference.cache
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/obj/Debug/netstandard2.1/AdventureWorks.Models.AssemblyInfoInputs.cache
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/obj/Debug/netstandard2.1/AdventureWorks.Models.AssemblyInfo.cs
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/obj/Debug/netstandard2.1/AdventureWorks.Models.csproj.CoreCompileInputs.cache
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/obj/Debug/netstandard2.1/AdventureWorks.Models.dll
+/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/obj/Debug/netstandard2.1/AdventureWorks.Models.pdb

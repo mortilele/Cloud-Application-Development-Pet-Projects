@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj": {}
+  },
+  "projects": {
+    "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj",
+        "projectName": "AdventureWorks.Models",
+        "projectPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/AdventureWorks.Models.csproj",
+        "packagesPath": "/home/mars/.nuget/packages/",
+        "outputPath": "/home/mars/Desktop/AzurePractice/Lab#4/AdventureWorks/AdventureWorks.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mars/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
