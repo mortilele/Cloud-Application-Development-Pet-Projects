@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+  <style>
+    .delete {
+      float: right;
+      color: red;
+    }
+  </style>
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="https://i.pinimg.com/originals/6a/97/3a/6a973acc6f9e9fb337ba5509bb77e58e.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Our Zoo Pets</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  {% for pet in pets %}
+    {% if loop.index0 % 3 == 0 %}
+    <div class="w3-row-padding">
+    {% endif %}
+      <div class="w3-third w3-container w3-margin-bottom">
+        <a href="/pets/{{pet.category}}/{{pet.id}}"><img src="{{ pet.image_url }}" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+        <div class="w3-container w3-white">
+          <p><b>{{ pet.name }} - {{ pet.category }}</b></p>
+          <p><b> Price: {{ pet.price }}</b></p>
+          <p> {{ pet.description }} <a class="delete" href="pets/{{pet.category}}/{{pet.id}}/delete"> DELETE </a></p>
+        </div>
+      </div>
+    {% if loop.index0 % 3 == 2 %}
+    </div>
+    {% endif %}
+  {% endfor %}
+
+<!-- End page content -->
+{% endblock %}
