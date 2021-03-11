@@ -1,9 +1,8 @@
 from azure.cosmos import CosmosClient, PartitionKey
+import config
 
-ENDPOINT = 'https://polycosmosalik.documents.azure.com:443/'
-KEY = 'UjSD5TM5f2NoxX6YaxwpKbB0YCRK1anJzlkWQdUJ7WROelcOaZ6tBqeohRDApGxeLGIKrVqgX73jO3Y399Rchg=='
 
-client = CosmosClient(ENDPOINT, KEY)
+client = CosmosClient(config.COSMOS_DB_ENDPOINT, config.COSMOS_DB_PRIMARY_KEY)
 
 DATABASE_NAME = 'PetsDatabase'
 database = client.create_database_if_not_exists(id=DATABASE_NAME)
