@@ -1,0 +1,4 @@
+Django==3.1.7
+msal==1.7.0
+requests==2.25.0
+pyyaml==5.3.1
